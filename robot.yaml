@@ -1,0 +1,17 @@
+tasks:
+  Default:
+    command:
+      - python
+      - task.py
+  Emails:
+    command:
+      - python
+      - emails.py
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+    - .gitignore
